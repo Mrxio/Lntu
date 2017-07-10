@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    android:elevation="5dp"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:gravity="center"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:id="@+id/tv_list_classname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#ffffff"/>
+    <LinearLayout
+        android:layout_below="@+id/tv_list_classname"
+        android:id="@+id/ll_gradeinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:textSize="16sp"
+        android:layout_margin="8dp"
+        android:id="@+id/tv_list_classnum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="16sp"
+        android:layout_margin="8dp"
+        android:id="@+id/tv_list_classcredit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="16sp"
+        android:layout_margin="8dp"
+        android:id="@+id/tv_list_testtype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="16sp"
+        android:layout_margin="8dp"
+        android:id="@+id/tv_list_terminfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+        <TextView
+            android:layout_centerVertical="true"
+            android:id="@+id/tv_list_classgrade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="16dp"/>
+        <TextView
+            android:textColor="#EE8888"
+            android:textSize="16sp"
+            android:id="@+id/tv_list_pingshi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:layout_alignParentBottom="true"
+            android:paddingBottom="16dp"
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

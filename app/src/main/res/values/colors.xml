@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03a9f4</color>
+    <color name="colorPrimaryDark">#039be5</color>
+    <color name="colorAccent">#03a9f4</color>
+    <color name="colorNormal">#03a9f4</color>
+    <color name="colorNormalDark">#03a9f4</color>
+    <color name="legacy_light_primary">#03a9f4</color>
+    <color name="legacy_light_primary_dark">#03a9f4</color>
+    <color name="toolbar_text">#ffffff</color>
+    <color name="liner">#eceff1</color>
+    <color name="color1">#7B68EE</color>
+    <color name="color2">#DDA0DD</color>
+    <color name="color3">#87CEEB</color>
+    <color name="color4">#FF6699</color>
+    <color name="color5">#30b27b</color>
+    <color name="white">#ffffff</color>
+    <color name="gray">#eeeeee</color>
+</resources>

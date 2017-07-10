@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE"
+    >
+    <LinearLayout
+        android:id="@+id/ll_layout"
+        android:background="@color/liner"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="16dp"
+            android:id="@+id/sn_year">
+        </Spinner>
+        <TextView
+            android:layout_width="2px"
+            android:layout_height="match_parent"
+            android:background="#BDBDBD"/>
+        <Spinner
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/sn_term">
+        </Spinner>
+    </LinearLayout>
+    <TextView
+        android:layout_below="@+id/ll_layout"
+        android:id="@+id/tv_line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#BDBDBD"/>
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@+id/tv_line"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:id="@+id/lv_gradeinfo">
+    </android.support.v7.widget.RecyclerView>
+    <cn.net.ntech.lntu.view.ProgressView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pv_grade_progress"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>
+
